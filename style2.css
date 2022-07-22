@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+html,body{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #555; */
+    background-color: #ecf0f3;
+}
+
+.login{
+    
+transform: translate(-50% -50%);
+    width: 430px;
+    height: 700px;
+    padding: 60px 35px 35px 35px;
+    background-color:#ecf0f3;
+    border-radius: 40px;
+    box-shadow: 13px 13px 20px #cbced1,-13px -13px 20px #fff;
+}
+
+.logo{
+    background-image: url(https://images.unsplash.com/photo-1481437642641-2f0ae875f836?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1hbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px #272525,0px 0px 0px 5px #3e3e3f,8px 8px 15px #343538,-8px -8px -15px rgb(129, 124, 124);
+}
+.tittle{
+    position: relative; 
+    margin-left: 95px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: ogg;
+   font-size: 30px;
+   text-transform: capitalize;
+   font-weight: 900;
+}
+.field{
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+.field input{
+      
+ position: relative;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #555;
+    background: none;
+    padding: 20px 10px 20px 5px;
+}
+.username,.password{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    padding-left: 40px;
+    box-shadow: inset 8px 8px 8px #cbced1 ,inset -8px -8px 8px #fff ;
+
+}
+.field .username a{
+    position: absolute;
+    left: 42%;
+    top: 43.5%;
+    text-decoration: none;
+    color: black;
+    /* margin-top: 30px !important; */
+}
+
+ .field .username a i{ 
+    font-size: 22px;
+}
+.field .password a{
+    position: absolute;
+    left: 42%;
+    top: 52%;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px !important;
+}
+
+ .field .password a i{ 
+    font-size: 22px;
+}
+
+
+#one{
+    outline: none;
+    border: none;
+    width:100%;
+    height: 60px;
+    box-shadow: inset 3px 3px 8px #b1b1b1 ,inset -3px -3px 8px #fff ;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #02c8db;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#one:hover{
+    background-color: #50e5b9;
+
+}
+#one:active{
+    background-color: #88ef9e;
+    
+}
+#link {
+    text-align: center;
+    padding-top: 20px;
+   
+}
+#link a {
+    color: #aaa;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+    text-transform: capitalize;
+    
+}
+#ten{
+    width:100px;
+    height: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 40px;
+   margin-left: 90px;
+  outline: none;
+box-shadow: inset 3px 3px 8px #b1b1b1 ,inset -3px -3px 8px #fff ;
+color: #fff;
+    background-color: #02c8db;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+}
+    #ten:hover{
+        background-color: #50e5b9;
+    
+    }
+    #ten:active{
+        background-color: #88ef9e;
+        
+    }
+#main img{
+     position: absolute; 
+bottom: 5%;
+    right: 2%;
+    
+    width: 180px;
+}

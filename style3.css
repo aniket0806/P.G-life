@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'gilroy';
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{ 
+  
+     width: 100%;
+    min-height: 100vh;
+    background-color:white;
+    background-size: cover;
+}
+#signup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 730px;
+    height: 700px;
+    padding: 60px 35px 35px 35px;
+    background-color:#ecf0f3;
+    border-radius: 40px;
+    box-shadow: 13px 13px 20px #cbced1,-13px -13px 20px #fff;
+}
+#signup form{
+    margin-top: 90px;
+}
+#signup form input{
+    position: relative;
+
+    left: 15%;
+     border: none;
+    outline: none; 
+    font-size: 18px;
+    color: #555;
+    background: none;
+    padding: 20px 10px 20px 5px;
+    box-shadow: inset 8px 8px 8px #cbced1 ,inset -8px -8px 8px #fff ;
+    border-radius: 50px;
+
+    
+}
+#signup  #ten{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: none;
+    outline: none; 
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    /* box-shadow: inset 8px 8px 8px #cbced1 ,inset -8px -8px 8px #fff ; */
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: inset 3px 3px 8px #b1b1b1 ,inset -3px -3px 8px #fff ;
+    color: #fff;
+    background-color: #02c8db;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+    
+    
+}
+#signup  #ten:hover{
+    background-color: #50e5b9;
+
+}
+#signup form #ten:active{
+    background-color: #88ef9e;
+    
+}
+
+#signup  #btn2{
+    position: absolute;
+    left: 85%;
+    top: 5%;
+    width: 80px;
+    height: 25px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: inset 3px 3px 8px #b1b1b1 ,inset -3px -3px 8px #fff ;
+    color: #fff;
+    background-color: #02c8db;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+}
+#btn2:hover{
+    background-color: #50e5b9;
+
+}
+#btn2:active{
+    background-color: #88ef9e;
+    
+}
+#one{
+    margin-left: 10px;
+}
+.em{
+    width: 400px;
+}
+#three{
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+#signup img{
+    position: absolute;
+    width: 200px;
+    right: 3%;
+    bottom: 5%;
+}
+#signup h3{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-size: 60px;
+    font-family: ogg;
+}
